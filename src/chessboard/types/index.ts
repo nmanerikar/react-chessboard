@@ -74,12 +74,14 @@ export type Piece =
     | 'wR'
     | 'wQ'
     | 'wK'
+    | 'wX'
     | 'bP'
     | 'bB'
     | 'bN'
     | 'bR'
     | 'bQ'
-    | 'bK';
+    | 'bK'
+    | 'bX';
 
 export type BoardPosition = { [square in Square]?: Piece };
 

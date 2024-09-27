@@ -160,7 +160,7 @@ function isValidFen(fen: string): boolean {
     for (let i = 0; i < 8; i++) {
         if (
             chunks[i].length !== 8 ||
-            chunks[i].search(/[^kqrnbpKQRNBP1]/) !== -1
+            chunks[i].search(/[^kqrnbpxKQRNBPX1]/) !== -1
         ) {
             return false;
         }
