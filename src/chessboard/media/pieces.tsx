@@ -4,6 +4,36 @@ import { ReactNode } from 'react';
 // This W3C - unspecified vector image was created with Inkscape., CC BY - SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1499810
 
 export const defaultPieces: Record<string, ReactNode> = {
+    wX: (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="45"
+            height="45"
+        >
+            <polygon
+                points="22.5,10 35,35 10,35"
+                stroke="black"
+                fill="white"
+                strokeWidth="1.5"
+            />{' '}
+        </svg>
+    ),
+    bX: (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="45"
+            height="45"
+        >
+            <polygon
+                points="22.5,10 35,35 10,35"
+                stroke="black"
+                fill="black"
+                strokeWidth="1.5"
+            />
+        </svg>
+    ),
     wP: (
         <svg
             xmlns="http://www.w3.org/2000/svg"
