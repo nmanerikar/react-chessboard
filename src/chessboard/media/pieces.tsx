@@ -16,7 +16,7 @@ export const defaultPieces: Record<string, ReactNode> = {
                 stroke="black"
                 fill="white"
                 strokeWidth="1.5"
-            />{' '}
+            />
         </svg>
     ),
     bX: (
